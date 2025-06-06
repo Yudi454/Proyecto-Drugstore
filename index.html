@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <!-- Script font awesome -->
+  <script src="https://kit.fontawesome.com/2cfa31f275.js" crossorigin="anonymous" defer></script>
+  <!-- Axios -->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <!-- Css propios -->
+  <link rel="stylesheet" href="./css/inicio/inicio.css">
+  <link rel="stylesheet" href="./css/navBar/navBar.css">
+  <link rel="stylesheet" href="./css/footer/footer.css">
+  <!-- Scripts propios -->
+  <script src="./js/inicio/login.js" defer></script>
+  <script src="./js/inicio/Registro.js" defer></script>
+  <link rel="icon" href="../../img/navbar/logo5.png">
+  <title>Login</title>
+</head>
+
+<body>
+  <!-- NavBar -->
+  <header class="header mb-5">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <!-- Contenedor del logo -->
+        <div class="logo col-4 col-sm-2">
+          <a href="./index.html">
+            <img src="./img/navbar/logo5.png" alt="">
+          </a>
+        </div>
+        <!-- Fin contenedor del logo -->
+        <!-- Contenedor del titulo -->
+        <div class="col-8 ">
+          <h1 class="titulo">BIENVENIDO A DRUGSTORE 24/7</h1>
+        </div>
+        <!-- Fin contenedor del titulo -->
+        <!-- Links para cuando la pantalla sea grande -->
+        <div class="col-2 linksSinSelect">
+          <nav class="navegacion">
+            <a href="./html/info/NuestrosServicios.html">Servicios</a>
+            <a href="./aCercaDeNosotros/nosotros.html">Sobre Nosotros</a>
+          </nav>
+        </div>
+        <!-- Fin -->
+        <!-- Links para cuando la pantalla se achica -->
+        <div class=" col-12 col-sm-2 linksConSelect">
+          <li class="nav-item dropdown">
+            <a class="btn btn-select nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fa-solid fa-bars"></i>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="./info/NuestrosServicios.html">Servicios</a></li>
+              <li><a class="dropdown-item" href="./aCercaDeNosotros/nosotros.html">Sobre Nosotros</a></li>
+            </ul>
+          </li>
+        </div>
+        <!-- Fin -->
+      </div>
+    </nav>
+  </header>
+  <!-- Cuerpo -->
+  <main class="main">
+    <!-- Login -->
+    <article id="articleLogin">
+      <div class="containerlogin">
+        <h2>Iniciar Sesion</h2>
+        <!-- Formulario de login -->
+        <form class="form" id="formLogin">
+          <input type="text" placeholder="Ingresa tu usuario" id="user" class="mt-2 mb-2" />
+          <input type="password" placeholder="Ingresa tu contraseña" id="pass" class="mt-2 mb-2" />
+          <button class="btnlogin mt-2 mb-2" id="btn-Login" type="submit">INGRESAR</button>
+        </form>
+      </div>
+      <!-- Ir a registro -->
+      <div class="registro mt-4 mb-4">
+        <h6>¿Todavia no tenes una cuenta?</h6>
+        <button class="btn btnAcciones" id="botonIrRegistro">Registrate</a>
+      </div>
+    </article>
+    <!-- Registro -->
+    <article class="d-none" id="articleRegistro">
+      <div class="containerlogin">
+        <h2>REGISTRATE</h2>
+        <form id="formRegistro">
+          <!-- Cargar usuarioe -->
+          <div class="input-group">
+            <input class="form-control mt-3 mb-3" type="text" placeholder="Ingresa tu usuario" id="userRegistro" />
+            <div class="invalid-feedback">
+              Ingrese un nombre valido
+            </div>
+          </div>
+          <!-- Cargar contraseña -->
+          <div class="input-group">
+            <input class="form-control mt-3 mb-3" type="password" placeholder="Ingresa tu contraseña"
+              id="passRegistro" />
+            <div class="invalid-feedback">
+              Ingrese una contraseña valida
+            </div>
+          </div>
+          <!-- Cargar direccion -->
+          <div class="input-group">
+            <input class="form-control mt-3 mb-3" type="text" placeholder="Ingresa tu direccion" id="direction">
+            <div class="invalid-feedback">
+              Ingrese una direccion valida
+            </div>
+          </div>
+          <!-- Cargar telefono -->
+          <div class="input-group">
+            <input class="form-control mt-3 mb-3" type="number" placeholder="Ingresa tu telefono" id="phone">
+            <div class="invalid-feedback">
+              Ingrese un telefono valido
+            </div>
+          </div>
+          <!-- Cargar email -->
+          <div class="input-group">
+            <input class="form-control mt-3 mb-3" type="text" placeholder="Ingresa tu email" id="email">
+            <div class="invalid-feedback">
+              Ingrese un email valido
+            </div>
+          </div>
+          <!-- Cargar fecha de nacimiento -->
+          <div class="input-group">
+            <input class="form-control mt-3 mb-3" type="text" placeholder="Ingresa tu fecha de Nacimiento"
+              id="nacimiento">
+            <div class="invalid-feedback">
+              Ingrese una fecha de nacimiento valida
+            </div>
+          </div>
+          <button id="btnRegister" type="submit" class="btn btnAcciones">Registrarse</button>
+        </form>
+      </div>
+      <!-- Ir a login -->
+      <div class="registro mt-4 mb-4">
+        <h6>¿Ya tienes una cuenta?</h6>
+        <button class="btn btnAcciones" id="botonIrLogin">Login</a>
+      </div>
+    </article>
+  </main>
+  <!-- Footer -->
+  <footer class="footer">
+    <article class="pt-4  pb-4">
+      <div class="social-icons">
+        <a href="../error404/index.html">
+          <img src="./img/footer/facebook.png" alt="">
+        </a>
+        <a href="../error404/index.html">
+          <img src="./img/footer/gorjeo.png" alt="">
+        </a>
+        <a href="../error404/index.html">
+          <img src="./img/footer/logotipo-de-instagram.png" alt="">
+        </a>
+      </div>
+      <p class="footer-copyright">©DRUGSTORE24/7 2024. Todos los derechos reservados.</p>
+    </article>
+  </footer>
+</body>
+
+</html>

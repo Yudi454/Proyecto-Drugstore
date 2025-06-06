@@ -1,0 +1,257 @@
+body {
+  padding: 0 !important;
+}
+
+/* Medidas para celulares */
+@media (max-width: 575px) {
+  .linksSinSelect {
+    display: none !important;
+  }
+
+  .linksConSelect {
+    display: flex !important;
+  }
+
+  .titulo {
+    font-size: 3vh !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+
+/* Medidas para pantallas medianas */
+@media (min-width: 576px) {
+  .titulo {
+    font-size: 4vh !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .linksYAccionesPantallaGrande {
+    display: none !important;
+  }
+
+  .linksPantallaMediana {
+    display: flex !important;
+  }
+
+  .linksSinSelect {
+    justify-content: space-evenly !important;
+  }
+
+  .linksConSelect {
+    display: none !important;
+  }
+}
+
+/* Medidas para mostrar botones con acciones */
+@media (min-width: 942px) {
+  .titulo {
+    font-size: 5vh !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .linksYAccionesPantallaGrande {
+    display: flex !important;
+  }
+
+  .contenedorAcciones {
+    display: none !important;
+  }
+
+  .linksPantallaMediana {
+    display: none !important;
+  }
+
+  .linksConSelect {
+    display: none !important;
+  }
+}
+
+/* Medida para pantallas grandes */
+
+@media (min-width: 1100px) {
+  .linksPantallaMediana {
+    display: none !important;
+  }
+
+  .accionesConSelect {
+    display: none !important;
+  }
+
+  .contenedorAcciones {
+    display: flex !important;
+  }
+
+  .linksConSelect {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sectProducto {
+    flex-direction: column;
+  }
+
+  .fotoPrducto {
+    width: auto;
+    height: 20%;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    padding: auto;
+    margin-left: 0;
+  }
+
+  .fotoPrducto img {
+    width: 70% !important;
+    margin: auto;
+  }
+
+  .productInfo {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.container-fluid {
+  padding: 0 !important;
+}
+
+.header {
+  height: 110px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 20px;
+  background-color: teal;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 0;
+}
+
+.linksSinSelect {
+  display: flex;
+}
+
+.linksConSelect {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accionesConSelect {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linksPantallaMediana {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-select {
+  text-decoration: none;
+  border: solid #66cccc;
+  color: #66cccc;
+}
+
+.btn-select:hover {
+  color: #66cccc;
+}
+
+.dropdown-menu {
+  left: -67px !important;
+  background-color: teal;
+}
+
+.dropdown-item {
+  color: #66cccc;
+}
+
+.dropdown-item:hover {
+  background-color: #66cccc;
+}
+
+.nav-link {
+  padding: 0;
+}
+
+.titulo {
+  font-size: 3rem;
+  font-family: "Times New Roman";
+  text-align: center;
+  margin: 50px 0;
+  position: relative;
+  padding-bottom: 10px;
+  color: rgb(4, 74, 74);
+  font-weight: bold;
+  /* Aumenta el grosor de la letra */
+  margin-left: 70px;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler {
+  border-color: black;
+}
+
+.navbar-toggler-icon {
+  color: black;
+}
+
+.logo img {
+  height: 76px;
+  margin-left: 23px;
+}
+
+.navegacion a {
+  margin-right: 10px;
+  font-size: 15px;
+  margin-left: 10px;
+  color: rgb(172, 248, 248);
+  text-decoration: none;
+  font-weight: bold;
+  opacity: 70%;
+}
+
+.navegacion a:hover {
+  color: #ffffff;
+  background-color: teal;
+}
+
+.navegacion {
+  display: flex;
+  align-items: center;
+}
+
+.navegacion .btn {
+  margin-left: 20px;
+}
+
+.sectProducto {
+  background-color: teal;
+  margin: 10px 10%;
+  padding: 10px 0;
+  display: flex;
+  border: solid 5px rgb(56, 56, 56);
+  border-radius: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.fotoPrducto {
+  margin-left: 3vh;
+}
+.fotoPrducto img {
+  width: 90%;
+  border: solid 2px rgb(56, 56, 56);
+}
+
+.productInfo {
+  width: 45%;
+}

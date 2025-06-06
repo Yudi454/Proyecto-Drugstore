@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+
+.contenedorTablaProducto {
+    padding: 0;
+}
+
+.contenedorTablaVenta {
+    padding: 0;
+}
+
+.row {
+    margin: 0;
+}
+
+.contenedorTabla {
+    overflow-x: auto;
+}
+
+.btnAcciones {
+    background-color: teal;
+    font-weight: bold;
+}
+
+.btnAcciones:hover {
+    background-color: #A8E0E0;
+}
+
+.btnAcciones:disabled {
+    background-color: teal;
+}
+
+.table {
+    --bs-table-bg: transparent !important; /* Hace el fondo transparente */
+}
+  
+#cuerpoTabla,#listaProductoVender,#cuerpoProducto,#listaVentasCajero{
+    background-color: #A8E0E0;
+}
+
+tr:hover{
+    background-color: #66cccc;
+}
+

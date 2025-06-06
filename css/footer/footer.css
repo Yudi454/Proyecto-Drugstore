@@ -1,0 +1,31 @@
+
+
+.footer {
+
+    background-color: teal;
+    color: beige;
+    padding: 0.1%;
+    text-align: center;
+    
+  
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .social-icons img {
+  
+    margin: 0 20px;
+    
+    width: 20px; /* Ajusta el tamaño según tus necesidades */
+    height: 20px;
+    opacity: 42%;
+  }
+  
+  .footer-copyright {
+    font-size: 12px;
+    color: #bbb;
+    margin-top: 15px;
+  }

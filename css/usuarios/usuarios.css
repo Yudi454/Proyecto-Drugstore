@@ -1,0 +1,147 @@
+body {
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  display: block;
+
+
+}
+
+
+.header {
+
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: teal;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 0;
+}
+
+.titulo {
+
+  font-size: 3rem;
+  font-family: 'Times New Roman';
+  text-align: center;
+  margin: 50px 0;
+  position: relative;
+  padding-bottom: 10px;
+  color:rgb(4, 74, 74);
+  font-weight: bold; /* Aumenta el grosor de la letra */
+  margin-left: 70px;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1);
+
+}
+
+
+
+.logo img {
+
+  height: 76px;
+  margin-left: 23px;
+}
+
+.navegacion a {
+   
+  margin-right: 28px;
+  font-size: 15px;
+  margin-left: 10px;
+  color: rgb(172, 248, 248);
+  text-decoration: none;
+  font-weight: bold;
+  opacity: 70%;
+}
+
+.navegacion a:hover {
+
+  color: #ffffff;
+  background-color: teal;
+}
+
+.main {
+
+  height: 100vh;
+  /* Ocupa toda la altura de la ventana */
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.titulo2{
+
+  font-size: 3rem;
+  font-family: 'Times New Roman';
+  text-align: center;
+  margin: 50px 0;
+  position: relative;
+  padding-bottom: 10px;
+  color:rgb(4, 74, 74);
+  font-weight: bold; /* Aumenta el grosor de la letra */
+  margin-left: 70px;
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.1)
+
+}
+
+.contenedorTabla{
+    padding: 0;
+    overflow-x: auto;
+}
+
+.table{
+  overflow-x: auto;
+}
+
+.container {
+
+    margin: auto;
+    background: rgb(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 40px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgb(0, 0, 0, 0.2);
+    justify-items: center
+}
+
+.contenedorFormularioAgregar{
+  display: none;
+}
+
+.contenedorFormularioEditar{
+  display: none;
+}
+
+.btnAcciones{
+  background-color: teal;
+}
+
+.btnAcciones:hover{
+  background-color: #A8E0E0;
+}
+
+
+.table {
+  --bs-table-bg: transparent !important; /* Hace el fondo transparente */
+}
+
+#cuerpoTabla{
+  background-color: #A8E0E0;
+}
+
+
+tr:hover{
+  background-color: #66cccc;
+}
+
+th{
+  white-space: nowrap !important;
+}

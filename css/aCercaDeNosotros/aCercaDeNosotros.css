@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.nosotros {
+  display: flex;
+  margin: 0 auto;
+}
+
+.carrucel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+  height: 700px;
+  margin: 50px auto;
+  border: 2px solid black;
+  padding: 20px;
+  position: relative;
+}
+
+.carrucel_cont {
+  width: 90%;
+  height: 80%;
+  font-size: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.cont_interno {
+  display: flex;
+  height: 100%;
+
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.foto_integrante {
+  width: 50%;
+}
+
+.foto_integrante img {
+  width: 100%;
+  margin: auto;
+
+}
+
+
+.cont_interno p {
+  margin: 10px 0;
+}
+
+.flecha {
+  font-size: 2rem;
+  cursor: pointer;
+
+}
+
+.flecha_izquierda {
+  position: absolute;
+  left: 10px;
+}
+
+.flecha_derecha {
+  position: absolute;
+  right: 10px;
+}

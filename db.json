@@ -1,0 +1,549 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "usuario": "Admin",
+      "contraseña": "admin123",
+      "direccion": "admin123",
+      "telefono": "0",
+      "email": "admin@gmail.com",
+      "fNacimiento": "admin",
+      "rol": "Admin"
+    },
+    {
+      "id": "2",
+      "usuario": "Camila",
+      "contraseña": "camila123",
+      "direccion": "a",
+      "telefono": "0",
+      "email": "a",
+      "fNacimiento": "1",
+      "rol": "User"
+    },
+    {
+      "id": "3",
+      "usuario": "Lucas",
+      "contraseña": "lucas1234",
+      "direccion": "a",
+      "telefono": "1",
+      "email": "a@gmail.com",
+      "fNacimiento": "1212",
+      "rol": "Admin"
+    },
+    {
+      "id": "6",
+      "usuario": "Lucas",
+      "contraseña": "1",
+      "direccion": "a",
+      "telefono": "123",
+      "email": "a@gmail.com",
+      "fNacimiento": "1212",
+      "rol": "User"
+    },
+    {
+      "id": "7",
+      "usuario": "Lucas",
+      "contraseña": "123",
+      "direccion": "a",
+      "telefono": "1444444",
+      "email": "a@gmail.com",
+      "fNacimiento": "123123",
+      "rol": "Admin"
+    },
+    {
+      "id": "",
+      "usuario": "Octavio",
+      "contraseña": "12345",
+      "direccion": "tucuman",
+      "telefono": "0",
+      "email": "octavio@gmail.com",
+      "fNacimiento": "19/12/2001",
+      "rol": "Admin"
+    },
+    {
+      "id": "",
+      "usuario": "Jose",
+      "contraseña": "123",
+      "direccion": "Virgen del Lujan 1456",
+      "telefono": "1111",
+      "email": "1@gmail.com",
+      "fNacimiento": "19/12/2001",
+      "rol": "Admin"
+    }
+  ],
+  "productos": [
+    {
+      "nombre": "Coca-Cola de 3.25Lt",
+      "cantidad": 3,
+      "precio": "3000",
+      "categoria": "bebida",
+      "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/782825/Gaseosa-Coca-cola-Sabor-Original-2-25-L-2-247191.jpg?v=638206689776800000",
+      "id": "da39"
+    },
+    {
+      "nombre": "Pepsi de 2.25Lt",
+      "cantidad": 8,
+      "precio": "3000",
+      "categoria": "bebida",
+      "imagen": "https://dcdn.mitiendanube.com/stores/001/151/835/products/77918134231191-b6edb2d29a4c812a2615890790070715-480-0.jpg",
+      "id": "6ab6"
+    },
+    {
+      "nombre": "Sprite de 2.25Lt",
+      "cantidad": 9,
+      "precio": "2850",
+      "categoria": "bebida",
+      "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/791793-800-600?v=638291793630230000&width=800&height=600&aspect=true",
+      "id": "020b"
+    },
+    {
+      "nombre": "Pepsi de 500ml",
+      "cantidad": "13",
+      "precio": "1300",
+      "categoria": "bebida",
+      "imagen": "https://acdn.mitiendanube.com/stores/003/795/536/products/77918134201181-02c1892ab7b2181d5e15952575329430-1024-1024-7d9e54ab089ddab94e169902079956241-90c755834d7f058cb216990208444790-1024-1024.jpg",
+      "id": "b0b6"
+    },
+    {
+      "nombre": "Sprite de 500ml",
+      "cantidad": "11",
+      "precio": "1300",
+      "categoria": "bebida",
+      "imagen": "https://dcdn.mitiendanube.com/stores/001/175/558/products/sprite-50001-a35e58152ec4defb7b16897062507108-1024-1024.jpg",
+      "id": "4f5d"
+    },
+    {
+      "nombre": "Cerveza Quilmes de 1Lt",
+      "cantidad": "10",
+      "precio": "2600",
+      "categoria": "bebidajajaja",
+      "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/433499-800-600?v=636517616933330000&width=800&height=600&aspect=true",
+      "id": "1805"
+    },
+    {
+      "nombre": "Cerveza Brahma de 1Lt",
+      "cantidad": "7",
+      "precio": "2600",
+      "categoria": "bebida",
+      "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/782250/Cerveza-Brahma-Dorada-1lt-1-958228.jpg?v=638201183068830000",
+      "id": "7f02"
+    },
+    {
+      "nombre": "Cerveza Norte de 1Lt",
+      "cantidad": "15",
+      "precio": "2600",
+      "categoria": "bebida",
+      "imagen": "https://dcdn.mitiendanube.com/stores/001/714/239/products/chaban-1-261-c604138439aa9c447416226704085731-1024-1024.png",
+      "id": "30b6"
+    },
+    {
+      "nombre": "Cerveza Norte de 473Cc",
+      "cantidad": "13",
+      "precio": "1300",
+      "categoria": "bebida",
+      "imagen": "https://alberdisa.vteximg.com.br/arquivos/ids/178734-1000-1000/norte.png?v=638527534985270000",
+      "id": "e292"
+    },
+    {
+      "nombre": "Cerveza Brahma de 473Cc",
+      "cantidad": "8",
+      "precio": "1300",
+      "categoria": "bebida",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeYGaeFDmRPrd2KERDTSSpE3_mGnH0nEZUyQ&s",
+      "id": "b39c"
+    },
+    {
+      "nombre": "Cerveza Quilmes de 473Cc",
+      "cantidad": "11",
+      "precio": "1300",
+      "categoria": "bebida",
+      "imagen": "https://static.wixstatic.com/media/d2b1c5_c728eb9acdcc40bc8f68a220509d01e5~mv2.jpg/v1/fill/w_480,h_480,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/d2b1c5_c728eb9acdcc40bc8f68a220509d01e5~mv2.jpg",
+      "id": "34ff"
+    },
+    {
+      "nombre": "Agua Mineral San Remo Sin Gas 500ml",
+      "cantidad": "8",
+      "precio": "600",
+      "categoria": "bebida",
+      "imagen": "https://hiperlibertad.vtexassets.com/arquivos/ids/173756/Agua-Mineral-San-Remo-Sin-Gas-500ml-1-14077.jpg?v=637486759024330000",
+      "id": "70a7"
+    },
+    {
+      "nombre": "Agua Villavicencio Con Gas 500ml",
+      "cantidad": "12",
+      "precio": "600",
+      "categoria": "bebida",
+      "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/795828/Agua-Villavicencio-Sin-Gas-500cc-1-997464.jpg?v=638313501973800000",
+      "id": "2bde"
+    },
+    {
+      "nombre": "cigarros marlboro",
+      "cantidad": "18",
+      "precio": "4000",
+      "categoria": "tabaco",
+      "imagen": "https://media.istockphoto.com/id/472130277/es/foto/marlboro-20-clase-a-los-cigarrillos-caja.jpg?s=612x612&w=0&k=20&c=5Kj6RqsViGCtH1ilre9pYXFc0RlHu2Y4U52dVJ7NajI=",
+      "id": "3fc2"
+    },
+    {
+      "nombre": "cigarrillos philip morris",
+      "cantidad": "16",
+      "precio": "4000",
+      "categoria": "tabaco",
+      "imagen": "https://www.elriograndense.com.ar/wp-content/uploads/2018/04/cigarrillos-philips-morris-x-20-u-D_NQ_NP_941615-MLA26052864944_092017-F.jpg",
+      "id": "afc2"
+    },
+    {
+      "nombre": "galletas oreo",
+      "cantidad": "10",
+      "precio": "1500",
+      "categoria": "golosina",
+      "imagen": "https://acdn.mitiendanube.com/stores/001/157/846/products/lungo-2021-11-09t153321-9391-6c2616d069012b682116364836118410-1024-1024.png",
+      "id": "1891"
+    },
+    {
+      "nombre": "galletas pepitos",
+      "cantidad": "9",
+      "precio": "1500",
+      "categoria": "golosina",
+      "imagen": "https://www.distribuidorapop.com.ar/wp-content/uploads/2017/07/galletitas-pepitos-venta.jpg",
+      "id": "dba5"
+    },
+    {
+      "nombre": "gomitas",
+      "cantidad": "10",
+      "precio": "500",
+      "categoria": "golosina",
+      "imagen": "https://acdn.mitiendanube.com/stores/002/288/817/products/diseno-sin-titulo-2023-06-28t151723-4851-8990e19648ee3ea9d316879766103962-640-0.png",
+      "id": "901a"
+    },
+    {
+      "nombre": "rocklets",
+      "cantidad": "9",
+      "precio": "900",
+      "categoria": "golosina",
+      "imagen": "https://acdn.mitiendanube.com/stores/516/580/products/rock-4011-49047e6b589d59006016223099312894-1024-1024.png",
+      "id": "86c6"
+    },
+    {
+      "nombre": "cofler block",
+      "cantidad": "8",
+      "precio": "1000",
+      "categoria": "golosina",
+      "imagen": "https://arcorencasa.com/wp-content/uploads/2024/10/20241008-5312.webp",
+      "id": "6aee"
+    },
+    {
+      "nombre": "pico dulce",
+      "cantidad": "13",
+      "precio": "300",
+      "categoria": "golsina",
+      "imagen": "https://latiendadelceliaco.com.ar/wp-content/uploads/2022/07/PICO-DULCE-LHERITIER.jpg",
+      "id": "1835"
+    },
+    {
+      "nombre": "mogul moritas",
+      "cantidad": "14",
+      "precio": "600",
+      "categoria": "golosina",
+      "imagen": "https://arcorencasa.com/wp-content/uploads/2024/10/20241010-2624.webp",
+      "id": "73a3"
+    },
+    {
+      "nombre": "palito de la selva",
+      "cantidad": "24",
+      "precio": "300",
+      "categoria": "golosina",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQH-4CTOMk1ArLV7jpRx7ow_5XX23Hn1N9lew&s",
+      "id": "efcd"
+    }
+  ],
+  "Ventas": [
+    {
+      "id": "venta_9",
+      "fecha": "2024-11-09",
+      "total": "400",
+      "vendedor": "vendedor_2",
+      "descuento": "40",
+      "metodoDePago": "tarjeta",
+      "productos": [
+        {
+          "nombre": "Coca-Cola de 3.25Lt",
+          "cantidad": "5",
+          "precio": "3000",
+          "categoria": "bebida",
+          "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/782825/Gaseosa-Coca-cola-Sabor-Original-2-25-L-2-247191.jpg?v=638206689776800000",
+          "id": "da39"
+        }
+      ]
+    },
+    {
+      "id": "7380",
+      "fecha": "1",
+      "total": 20790,
+      "vendedor": "3",
+      "productos": [
+        {
+          "nombre": "Coca-Cola de 3.25Lt",
+          "cantidad": 6,
+          "precio": "2970",
+          "categoria": "bebida",
+          "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/782825/Gaseosa-Coca-cola-Sabor-Original-2-25-L-2-247191.jpg?v=638206689776800000",
+          "id": "da39"
+        },
+        {
+          "nombre": "Pepsi de 2.25Lt",
+          "cantidad": 8,
+          "precio": "2970",
+          "categoria": "bebida",
+          "imagen": "https://dcdn.mitiendanube.com/stores/001/151/835/products/77918134231191-b6edb2d29a4c812a2615890790070715-480-0.jpg",
+          "id": "6ab6"
+        },
+        {
+          "nombre": "Pepsi de 2.25Lt",
+          "cantidad": 8,
+          "precio": "2970",
+          "categoria": "bebida",
+          "imagen": "https://dcdn.mitiendanube.com/stores/001/151/835/products/77918134231191-b6edb2d29a4c812a2615890790070715-480-0.jpg",
+          "id": "6ab6"
+        },
+        {
+          "nombre": "Coca-Cola de 3.25Lt",
+          "cantidad": 6,
+          "precio": "2970",
+          "categoria": "bebida",
+          "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/782825/Gaseosa-Coca-cola-Sabor-Original-2-25-L-2-247191.jpg?v=638206689776800000",
+          "id": "da39"
+        },
+        {
+          "nombre": "Coca-Cola de 3.25Lt",
+          "cantidad": 6,
+          "precio": "2970",
+          "categoria": "bebida",
+          "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/782825/Gaseosa-Coca-cola-Sabor-Original-2-25-L-2-247191.jpg?v=638206689776800000",
+          "id": "da39"
+        },
+        {
+          "nombre": "Coca-Cola de 3.25Lt",
+          "cantidad": 6,
+          "precio": "2970",
+          "categoria": "bebida",
+          "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/782825/Gaseosa-Coca-cola-Sabor-Original-2-25-L-2-247191.jpg?v=638206689776800000",
+          "id": "da39"
+        },
+        {
+          "nombre": "Pepsi de 2.25Lt",
+          "cantidad": 8,
+          "precio": "2970",
+          "categoria": "bebida",
+          "imagen": "https://dcdn.mitiendanube.com/stores/001/151/835/products/77918134231191-b6edb2d29a4c812a2615890790070715-480-0.jpg",
+          "id": "6ab6"
+        }
+      ],
+      "descuento": "1",
+      "metodoDePago": "a"
+    },
+    {
+      "id": "3853",
+      "fecha": "1",
+      "total": 5940,
+      "vendedor": "3",
+      "productos": [
+        {
+          "nombre": "Coca-Cola de 3.25Lt",
+          "cantidad": 5,
+          "precio": "2970",
+          "categoria": "bebida",
+          "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/782825/Gaseosa-Coca-cola-Sabor-Original-2-25-L-2-247191.jpg?v=638206689776800000",
+          "id": "da39"
+        },
+        {
+          "nombre": "Coca-Cola de 3.25Lt",
+          "cantidad": 5,
+          "precio": "2970",
+          "categoria": "bebida",
+          "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/782825/Gaseosa-Coca-cola-Sabor-Original-2-25-L-2-247191.jpg?v=638206689776800000",
+          "id": "da39"
+        }
+      ],
+      "descuento": "1",
+      "metodoDePago": "a"
+    },
+    {
+      "id": "2019",
+      "fecha": "1",
+      "total": 2970,
+      "vendedor": "3",
+      "productos": [
+        {
+          "nombre": "Coca-Cola de 3.25Lt",
+          "cantidad": 4,
+          "precio": "2970",
+          "categoria": "bebida",
+          "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/782825/Gaseosa-Coca-cola-Sabor-Original-2-25-L-2-247191.jpg?v=638206689776800000",
+          "id": "da39"
+        }
+      ],
+      "descuento": "1",
+      "metodoDePago": "a"
+    },
+    {
+      "id": "5090",
+      "fecha": "1",
+      "total": 3000,
+      "vendedor": "3",
+      "productos": [
+        {
+          "nombre": "Coca-Cola de 3.25Lt",
+          "cantidad": 3,
+          "precio": "1500",
+          "categoria": "bebida",
+          "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/782825/Gaseosa-Coca-cola-Sabor-Original-2-25-L-2-247191.jpg?v=638206689776800000",
+          "id": "da39"
+        },
+        {
+          "nombre": "Coca-Cola de 3.25Lt",
+          "cantidad": 3,
+          "precio": "1500",
+          "categoria": "bebida",
+          "imagen": "https://jumboargentina.vtexassets.com/arquivos/ids/782825/Gaseosa-Coca-cola-Sabor-Original-2-25-L-2-247191.jpg?v=638206689776800000",
+          "id": "da39"
+        }
+      ],
+      "descuento": "50",
+      "metodoDePago": "a"
+    }
+  ],
+  "Distribuidores": [
+    {
+      "id": "dist001",
+      "nombre": "Distribuidor Golosinas",
+      "empresa": "Dulces del Norte",
+      "telefono": "381111111",
+      "email": "golosinas@dulces.com",
+      "productos": [
+        {
+          "id": "1891"
+        },
+        {
+          "id": "dba5"
+        },
+        {
+          "id": "901a"
+        },
+        {
+          "id": "86c6"
+        },
+        {
+          "id": "6aee"
+        },
+        {
+          "id": "1835"
+        },
+        {
+          "id": "73a3"
+        }
+      ]
+    },
+    {
+      "id": "dist002",
+      "nombre": "Distribuidor Tabaco",
+      "empresa": "Fumar es Cultura",
+      "telefono": "381222222",
+      "email": "tabacos@fumadores.com",
+      "productos": [
+        {
+          "id": "3fc2"
+        },
+        {
+          "id": "afc2"
+        }
+      ]
+    },
+    {
+      "id": "dist003",
+      "nombre": "Distribuidor Bebidas Alcohólicas",
+      "empresa": "Bebidas y Más",
+      "telefono": "381333333",
+      "email": "alcohol@bebidasymas.com",
+      "productos": [
+        {
+          "id": "1805"
+        },
+        {
+          "id": "7f02"
+        },
+        {
+          "id": "30b6"
+        },
+        {
+          "id": "e292"
+        },
+        {
+          "id": "b39c"
+        },
+        {
+          "id": "34ff"
+        }
+      ]
+    },
+    {
+      "id": "dist004",
+      "nombre": "Distribuidor Bebidas No Alcohólicas",
+      "empresa": "Bebidas Frescas",
+      "telefono": "381444444",
+      "email": "sinalcohol@bebidasfrescas.com",
+      "productos": [
+        {
+          "id": "da39"
+        },
+        {
+          "id": "6ab6"
+        },
+        {
+          "id": "020b"
+        },
+        {
+          "id": "fee7"
+        },
+        {
+          "id": "b0b6"
+        },
+        {
+          "id": "4f5d"
+        },
+        {
+          "id": "70a7"
+        },
+        {
+          "id": "2bde"
+        }
+      ]
+    }
+  ],
+  "Peticiones": [
+    {
+      "tipoPeticion": "ajuste",
+      "validada": true,
+      "productosPeticion": [
+        {
+          "id": "4925",
+          "nombre": "a",
+          "cantidad": 1
+        }
+      ],
+      "id": "1"
+    },
+    {
+      "id": "9219",
+      "tipoPeticion": "compra",
+      "validada": true,
+      "productosPeticion": [
+        {
+          "id": "da39",
+          "nombre": "Coca-Cola de 3.25Lt",
+          "cantidad": 1
+        }
+      ]
+    }
+  ]
+}
